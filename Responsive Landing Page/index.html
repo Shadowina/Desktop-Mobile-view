@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Responsive Landing Page Mobile and Desktop View Only</title>
+</head>
+<body>
+    <header>
+        <img src ="Assets/Logo.svg"/>
+
+        <img src="Assets/Menu.svg" alt="" class = "hamburger-menu">
+        <nav class = "container">
+            <ul class = "mobile-menu open">
+                <li class = "has-dropdown">
+                    <a href="">Products</a>
+                    <ul class = "dropdown" id = "drop">
+                        <li>
+                            <img src="Assets/Spense_Icon.svg" alt="" class = "drop-img" onclick = "toggleButton(this)">
+                            <a href="">
+                                <p class = "title">Spense</p>
+                                Spense is a landing page for writers.
+                                Great for practicing absolute positioning
+                                and flex layouts.
+                            </a>
+                        </li>
+                        <li>
+                            <img src="Assets/Fiber_Icon.svg" alt="" class ="drop-img">
+                            <a href="">
+                                <p class = "title">Fiber Landing Page</p>
+                                An online portfolio generator. Great to flex/grid layouts
+                                and absolute positioning.
+                            </a>
+                        </li>
+                        <li>
+                            <img src="Assets/Gradie_Icon.svg" alt="" class = "drop-img">
+                            <a href="">
+                                <p class = "title">Gradie Signup Page</p>
+                                Gradie is a simple sign up page, great to
+                                practicing centering layouts.
+
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li><a href="">Challenges</a></li>
+                <li><a href="">Resources</a></li>
+                <li><a href="">Other Links</a></li>
+            </ul>
+            <div id = sign-in>
+                <p>Sign in</p>
+                <button class = " btn fireworks-example" >Try for free</button>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+        <h1>Ondeck is your remote <span class="highlight">conference calling tool</span></h1>
+        <p>
+            Ondeck is a service that allows you to create beautiful, online,
+            and encrypted video calls for  you and your remote team.
+        </p>
+        <button class = "btn">Try for free</button>
+        <div id = "rating">
+            <p>5.0 Rating based on reviews from:</p> 
+                <div class = "rating-img">
+                    <img class ="img-space" src ="Assets/Capterra Logo.svg"/>
+                    <img class ="img-space" src ="Assets/AlternativeTo Logo.svg"/> 
+                    <img class = "img-space" src ="Assets/Fiber_Icon.svg"/>
+                </div>
+        </div>
+        </section>  
+        <img src ="Assets/Hero Image.png" width="280" height = "350" />
+    </main>
+    <footer>
+        <p>Trusted by 3+ million people in companies like</p>
+        <div id = "socials">
+            
+                <img src ="Assets/Netflix Logo.svg"/>
+                <img src ="Assets/Shopify Logo.svg"/>
+                <img src ="Assets/Spotify Logo.svg"/>
+                <img src ="Assets/Walmart Logo.svg"/>
+            
+        </div>
+    </footer>
+<script src="app.js"></script>
+
+</body>
+    
+
+</html>
